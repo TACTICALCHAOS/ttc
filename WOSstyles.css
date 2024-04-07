@@ -1,0 +1,82 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.header {
+    background-color: #FFBE86;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.sidebar {
+    background-color: #FFE156;
+    color: #fff;
+    padding: 10px;
+    width: 200px;
+}
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+.navbar ul li {
+    margin-bottom: 5px;
+}
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+}
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+.submenu {
+    display: none;
+}
+.navbar ul li:hover .submenu {
+    display: block;
+}
+.submenu li {
+    list-style-type: none;
+    margin-left: 10px;
+}
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #FFE9CE; /* Added background color */
+}
+.footer {
+    background-color: #3777FF;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Add this to your styles.css file */
+
+/* Style for linked section */
+#whiteout {
+    padding: 20px;
+    background-color: #FFE9CE;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#whiteout h2 {
+    color: #3777FF;
+}
+
+#whiteout p {
+    color: #333;
+}
